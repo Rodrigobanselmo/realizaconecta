@@ -1,0 +1,11 @@
+expo install @expo-google-fonts/poppins @react-native-async-storage/async-storage react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+expo install lottie-react-native expo-app-loading expo-font expo-linear-gradient expo-splash-screen expo-status-bar expo-updates firebase react-native-svg 
+yarn add @react-navigation/native @react-navigation/stack  react-native-iphone-x-helper react-native-responsive-fontsize react-native-toast-message react-native-uuid
+
+yarn add react-redux redux redux-persist styled-components yup react-hook-form date-fns intl
+
+yarn add react-native-svg-transformer
+https://bestofreactjs.com/repo/kristerkari-react-native-svg-transformer-react-react-native-awesome-components
+
+sem svg transform 
+https://levelup.gitconnected.com/how-to-use-svgs-in-react-native-with-expo-ec34f085f5e0
