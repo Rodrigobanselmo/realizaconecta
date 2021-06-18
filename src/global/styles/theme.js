@@ -47,6 +47,6 @@ export default {
     bold: 'Poppins_700Bold',
   },
   statusHeight: getStatusBarHeight()+10,
-  bottomHeight: getBottomSpace()+5,
+  bottomHeight: getBottomSpace(),
   // statusHeight: Platform.OS === 'android' ? getStatusBarHeight()+ 5 : 0,
 };

@@ -1,6 +1,7 @@
 import React from 'react';
-import {createStackNavigator} from '@react-navigation/stack';
+import { createStackNavigator, CardStyleInterpolators } from '@react-navigation/stack';
 import DashStack from './Stacks/DashStack';
+import TabStack from './Stacks/TabStack';
 
 const MainStack = createStackNavigator();
 
@@ -16,7 +17,8 @@ export default () => {
   return (
       
     <MainStack.Navigator headerMode="none">
-      <MainStack.Screen name="DashStack" component={DashStack} options={{ cardStyleInterpolator: forFade }} />
+      <MainStack.Screen name="TabStack" component={TabStack} options={{ cardStyleInterpolator: forFade }} />
+      <MainStack.Screen name="DashStack" component={DashStack} options={{ cardStyleInterpolator: CardStyleInterpolators.forScaleFromCenterAndroid }} />
     </MainStack.Navigator>
   );
 

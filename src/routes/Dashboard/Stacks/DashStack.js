@@ -1,12 +1,12 @@
 import React from 'react';
 import { createStackNavigator, CardStyleInterpolators } from '@react-navigation/stack';
-import Home from '../../../screens/Home';
+import Calendar from '../../../screens/Calendar';
 
 const DashStack = createStackNavigator();
 
 const Stack = ({navigation}) => (
     <DashStack.Navigator headerMode='none' initialRouteName={"Splash"}>
-        <DashStack.Screen name="Home" component={Home} options={{ cardStyleInterpolator: CardStyleInterpolators.forHorizontalIOS }}/>
+        <DashStack.Screen name="Calendar" component={Calendar} options={{ cardStyleInterpolator: CardStyleInterpolators.forHorizontalIOS }}/>
     </DashStack.Navigator>
 );
 

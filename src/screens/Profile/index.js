@@ -19,7 +19,7 @@ const Container = styled.View`
   padding: 0 18px;
 `;
 
-export default function Home({navigation}) {
+export default function Profile({navigation}) {
 
   function handleContinue() {
     navigation.navigate('DashStack')
@@ -29,7 +29,7 @@ export default function Home({navigation}) {
 
   return (
     <SafeContainer >
-      <Header text='HOMESCREEN'/>
+      <Header text='PROFILE_SCREEN'/>
       <Container>
         <Button
           text='CALENDAR'

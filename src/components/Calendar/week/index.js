@@ -187,7 +187,7 @@ export default function Week({selected,swipe,monthRef, setSelected, calendarRows
 
   useEffect(() => {
     setTimeout(() => {
-      monthRef.current.scrollToIndex({index:selectedDate.getMonth(),animated:false,viewOffset:RFValue(50)})
+      monthRef.current.scrollToIndex({index:selectedDate.getMonth(),animated:true})
     }, 1000);
   }, [])
 
